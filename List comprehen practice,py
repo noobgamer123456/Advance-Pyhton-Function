@@ -1,0 +1,17 @@
+#First Project
+number = int(input("Enter a number: "))
+
+
+odd_numbers = [i for i in range(number) if i % 2 != 0]
+
+
+all_numbers = [i for i in range(number)]
+
+print("Odd numbers under", number, ":", odd_numbers)
+print("All numbers under", number, ":", all_numbers)
+
+# Second Project
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+capitalized_fruits = [fruit.capitalize() for fruit in fruits]
+
+print("Capitalized fruits:", capitalized_fruits)
